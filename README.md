@@ -218,9 +218,9 @@ Models
 ------
 ![OpenAhjo Django model graph](Docs/models.png)
 
-Installation 
+Installation for Ubuntu 14.04
 ------------
-Required packages for Ubuntu 14.04:
+Required debian packages, install with apt (sudo apt-get install ...):
 
     language-pack-fi libxml2-dev libxslt1-dev libavcodec-dev libavformat-dev libswscale-dev python-imaging
     postgresql-9.3 postgresql-9.3-postgis-2.3 
@@ -232,7 +232,7 @@ Required packages that can be installed through apt or pip:
 Required Python packages:
     
     django-tastypie-swagger django-haystack django-cors-headers mysociety-django-popolo django-compressor
-    munigeo # from github.com/juyrjola/munigeo.git
+    munigeo # from github.com/juyrjola/munigeo
 
 Shell commands:
 
